@@ -42,7 +42,7 @@ int gameLose()
 
 int gameEnd()
 {
-    if (gameEnd() == 1 && correctGuess() == 1)
+    if (gameLose() == 1 && correctGuess() == 1)
         return 1;
     else
         return 0;

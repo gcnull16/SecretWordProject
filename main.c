@@ -20,8 +20,10 @@ int main()
 
 
    if (gameEnd() == 1)
-    printf ("\n\nGAME OVER!");
+    printf ("\n\nYOU GUESSED THE WORD CORRECTLY GG!");
 
+    else if (gameLose() == 1)
+        printf ("\n\nYOU LOSER");
 
     return 0;
 
